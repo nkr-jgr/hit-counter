@@ -10,5 +10,4 @@ RUN pip install -r /var/www/requirements.txt
 
 EXPOSE 8080
 
-ENTRYPOINT [ "python" ]
-CMD [ "/app/server.py" ]
+CMD [ "python" "/app/server.py" ]
