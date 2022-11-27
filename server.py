@@ -116,8 +116,8 @@ def add_header(r):
     return r
 
 
-if __name__ == '__main__':
-    ip = '0.0.0.0'
-    port = 8080
-    print("Site starting on http://" + ip + ":" + str(port))
-    app.run(host=ip, port=port, ssl_context=('cert.pem', 'key.pem'))
+# if __name__ == '__main__':
+#     ip = '0.0.0.0'
+#     # port = 8080
+#     print("Site starting on http://" + ip + ":" + str("port"))
+#     app.run(host=ip, ssl_context=('cert.pem', 'key.pem'))
